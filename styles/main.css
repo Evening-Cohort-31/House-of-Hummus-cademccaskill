@@ -28,14 +28,6 @@ ul {
     padding-inline-start: 0.75rem;
 }
 
-#purchase {
-    margin: 1rem 0 2rem 2rem;
-    padding: 0.5rem;
-    background-color: rgb(111, 72, 227);
-    color: rgb(230, 220, 255);
-    font-size: 1rem;
-}
-
 .header {
     display: flex;
 }
@@ -47,4 +39,32 @@ ul {
 .title {
     text-align: center;
     margin: 1rem 0 3rem 2rem;
+}
+
+.choices {
+    margin-bottom: 2rem;
+}
+
+.entrees,
+.vegetables,
+.sides {
+    margin-bottom: 2rem;
+}
+
+.entree-option,
+.vegetable-option,
+.side-option {
+    margin-bottom: 0.5rem;
+}
+
+#purchase {
+    margin: 1rem 0 2rem 2rem;
+    padding: 0.5rem;
+    background-color: rgb(111, 72, 227);
+    color: rgb(230, 220, 255);
+    font-size: 1rem;
+}
+
+.sales {
+    margin-top: 2rem;
 }
